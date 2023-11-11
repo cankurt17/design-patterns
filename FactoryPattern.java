@@ -64,9 +64,8 @@ class Audi implements ICar {
     }
 }
 
-class CarFactory { // Factory Class
-
-    // Factory Method, newInstance() ile:
+class CarFactory {  
+ 
     public static ICar createCar(String mark, String color, double price) {
 
         ICar car;
